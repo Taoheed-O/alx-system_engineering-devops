@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -printf "%t - %p\n" | sort -n | head -n 10
+find . -type f -printf "%t1 - %p\n" | sort -rn | head -n 10
